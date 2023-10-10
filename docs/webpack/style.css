@@ -20,3 +20,7 @@ strong {
 .title {
   font-family: "Yesteryear";
 }
+
+.underlined-title {
+  @apply border-b-violet-200 border-b-2 max-w-min whitespace-nowrap;
+}
