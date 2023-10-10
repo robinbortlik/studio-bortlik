@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Yesteryear&display=swap");
+
+body {
+  font-weight: 300;
+}
+
+.bg-container {
+  background: url("/assets/images/bg.webp") no-repeat center center scroll;
+  background-size: cover;
+}
+
+b,
+strong {
+  font-weight: 600;
+}
+
+.title {
+  font-family: "Yesteryear";
+}

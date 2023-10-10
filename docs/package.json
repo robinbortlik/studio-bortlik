@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "webpack": "^5.59.1",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@tailwindcss/typography": "^0.5.10",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.4.0",
+    "daisyui": "^1.14.7",
+    "postcss": "^8.3.11",
+    "postcss-loader": "^6.2.0",
+    "postcss-preset-env": "^6.7.0",
+    "style-loader": "^3.3.1",
+    "tailwindcss": "^3.3.3",
+    "webpack-dev-server": "^4.3.1",
+    "file-loader": "^6.2.0",
+    "webpack-dev-server-cors": "^1.14.3"
+  },
+  "scripts": {
+    "start": "webpack serve --mode=development --open",
+    "build": "export NODE_ENV=production && webpack"
+  }
+}
