@@ -22,5 +22,5 @@ strong {
 }
 
 .underlined-title {
-  @apply border-b-violet-200 border-b-2 max-w-min whitespace-nowrap;
+  @apply flex min-w-full justify-center items-center;
 }

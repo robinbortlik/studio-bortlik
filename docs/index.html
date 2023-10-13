@@ -65,13 +65,17 @@ layout: default
     <div class="bg-violet-100 bg-opacity-30 mt-5 pb-5">
       <div class="container max-w-4xl mx-auto">
         <div class="prose prose-lg max-w-full mt-8">
-          <h3 class="underlined-title">Služby</h3>
+          <h3 class="underlined-title mb-10">Služby</h3>
         </div>
-        <div class="grid lg:grid-cols-2 grid-cols-1 gap-2">
+        <div class="grid lg:grid-cols-2 grid-cols-1 gap-8">
           {% for item in site.data.services %}
-          <div class="prose prose-lg max-w-full mt-8">
-            <h4>{{item.title}}</h4>
-            <p>{{item.description}}</p>
+          <div
+            class="max-w-sm overflow-hidden shadow-lg bg-white max-h-64 border-t-violet-200 border-t-4 justify-self-center"
+          >
+            <div class="px-6 py-4 b-t-2">
+              <div class="font-bold text-xl mb-2">{{item.title}}</div>
+              <p class="text-gray-700 text-base">{{item.description}}</p>
+            </div>
           </div>
           {% endfor %}
         </div>
