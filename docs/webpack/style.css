@@ -8,7 +8,7 @@ body {
 }
 
 .bg-container {
-  background: url("/assets/images/bg.webp") no-repeat center center scroll;
+  background: url("/assets/images/bg.jpg") no-repeat center center scroll;
   background-size: cover;
 }
 
