@@ -18,14 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Studio Bortlík - Kosmetický a pedikérský salón
+title: Studio Bortlík – Profesionální kosmetické a pedikérské služby
 email: k.m.13@seznam.cz
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Studio Bortlík poskytuje profesionalní kosmetickou a pedikérskou péči v okolí Hlučína, Ostravy a Opavy.
+  Rádi vás přivítáme v našem salónu v Šilheřovicích. Nabízíme širokou škálu služeb, které jsou přizpůsobeny vašim potřebám.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://studio-bortlik.cz" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://studiobortlik.cz" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 # theme: minima
