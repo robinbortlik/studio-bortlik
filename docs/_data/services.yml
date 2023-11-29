@@ -1,26 +1,32 @@
 - title: Barvení a úprava obočí, depilace
-  description: Oživte svůj vzhled profesionálním barvením obočí a doplňte ho precizní depilací pro dokonalý look.
+  description: Oživte svůj vzhled barvením obočí a jeho vytvarováním. Zbavte se nežádoucího ochlupení depilací.
 
 - title: Ošetření všech typů pleti
-  description: Pro každý typ pleti nabízíme specifické ošetření, aby vaše pleť vždy zářila v nejlepším světle.
+  description:
+    Pro každý typ pleti nabízíme specifické ošetření, volíme ošetření podle požadovaných výsledků (lifting, depigmentace... ),
+    doporučujeme produkty pro domácí péči.
 
 - title: Ošetření ultrazvukem
-  description: Ultrazvukové ošetření pro hlubší regeneraci pleti. Obnovte svůj mladistvý vzhled s námi.
+  description:
+    Zklidnění pokožky pomocí ultrazvukových vln, zapracování aktivního séra nebo masky do hlubších vrstev pokožky,
+    podpora hojení při léčbě akné.
 
 - title: Kosmetické masáže
-  description: Dopřejte si chvíli relaxace a oživení pleti s našimi osvěžujícími kosmetickými masážemi.
+  description: Pravidelná kosmetická masáž obličeje a dekoltu působí jako prevence proti stárnutí pleti.
 
 - title: Lifting řas
-  description: Máte rádi výrazné řasy? Naše procedura liftingu řas vám přinese pohled plný objemu.
+  description: Natočení a výživa řas pro přirozený vzhled. Vhodné pro klientky, které se nechtějí líčit.
 
 - title: Enzymatický a chemický peeling
   description: Odstraňte odumřelé buňky a obnovte svou pleť s našimi efektivními peelingy.
 
 - title: Intenzivní obličejové kúry
-  description: Pro intenzivní péči nabízíme kúry, které vaší pleti dodají zářivost a vitalitu.
+  description:
+    Nabízíme různé druhy intenzivních obličejových kúr (výživná, hydratační, lyftingová... ),
+    pravidelnou aplikací kúr můžeme zlepšit stav a kvalitu pleti.
 
 - title: Líčení
-  description: Od přirozeného vzhledu po glam look - naše vizážistky vás promění podle vašeho přání.
+  description: Nabízíme denní, večerní, svatební a líčení na různé příležitosti.
 
-- title: Suchá a mokrá pedikura
-  description: Ať už preferujete suchou nebo mokrou pedikuru, vaše nohy budou v našich rukou vždy v dobré kondici.
+- title: Suchá, mokrá a kombinovaná pedikúra
+  description: Ať už preferujete suchou nebo mokrou pedikúru, vaše nohy budou v našich rukou vždy v dobré kondici.
