@@ -2,7 +2,9 @@
 layout: default
 ---
 
-<nav class="w-full flex bg-white fixed border-b-2 border-b-violet-200 z-10">
+<nav
+  class="w-full flex bg-white fixed border-b-2 border-b-violet-200 z-10 px-4"
+>
   <div
     class="w-full flex max-w-4xl flex-wrap items-center justify-between mx-auto"
   >
@@ -25,7 +27,7 @@ layout: default
 <div class="mx-auto h-full pt-10">
   <div class="bg-container bg-auto h-[500px]"></div>
   <div class="flex flex-col lg:mb-10 pt-16">
-    <div class="container max-w-4xl mx-auto">
+    <div class="container max-w-4xl mx-auto px-4">
       <div class="prose lg:prose-lg mx-auto max-w-full">
         <h1 class="title">Kosmetické a pedikérské Studio Bortlík</h1>
       </div>
@@ -65,7 +67,7 @@ layout: default
             class="no-underline hover:underline hover:!text-violet-500"
           >
             +420 773 485 182</a
-          >. Nacházíme se na adrese:
+          >. <br />Nacházíme se na adrese:
           <a
             href="https://maps.app.goo.gl/4N9HYaUX93Qpzwdt8"
             target="_blank"
@@ -102,6 +104,35 @@ layout: default
 
     <div class="container max-w-4xl mx-auto">
       <div class="prose lg:prose-lg max-w-full mt-8">
+        <div class="prose prose-lg max-w-full mt-8">
+          <h3 class="underlined-title mb-10">Ceník</h3>
+        </div>
+        <table class="table-auto">
+          <thead>
+            <tr>
+              <th class="!px-4 !py-2">Služba</th>
+              <th class="!px-4 !py-2 text-right">Cena</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for item in site.data.pricelist %}
+            <tr>
+              <td class="border !px-4 !py-2">{{item.title}}</td>
+              <td class="border !px-4 !py-2 text-right">{{item.price}},-</td>
+            </tr>
+            {% if item.break %}
+            <tr>
+              <td class=""></td>
+              <td class=""></td>
+            </tr>
+            {% endif %} {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="container max-w-4xl mx-auto">
+      <div class="prose lg:prose-lg max-w-full mt-8 px-4">
         <p>
           Pro svou práci používám kvalitní kosmetiku značek
           <a
