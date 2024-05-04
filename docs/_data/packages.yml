@@ -1,0 +1,76 @@
+- name: Basic - 890 Kč
+  bullets:
+    - odličení a tonizace pleti
+    - enzymatický peeling + neutralizace
+    - aplikace gelového změkčovadla + hloubková čištění pleti, dezinfekce pleti
+    - aplikace pleťového séra / boosteru nebo ampule
+    - aplikace pleťové masky / vrstvení masek + oční obklad
+    - aplikace denního krému, očního krému, ochranné masti na rty
+    - úprava obočí
+    - depilace chloupků nad horním rtem
+  notes:
+    "Dle stavu pleti a požadavků klientky využívám přístrojovou techniku: Ultrazvuková špachtle, Ozonizér, PDT tunel
+    <br /><br /> Ošetření je vhodné pro: normální a smíšenou pleť, mastnou pleť"
+  time: 90 - 120 min, dle potřeby a stavu pleti
+
+- name: Akné / Rosacea - 1090 Kč
+  bullets:
+    - odličení a tonizace pleti
+    - enzymatický peeling + neutralizace
+    - aplikace gelového změkčovadla + hloubková čištění pleti, dezinfekce pleti
+    - aplikace pleťového séra / boosteru nebo ampule
+    - zapracování séra kosmetickým ultrazvukem
+    - aplikace pleťové masky / vrstvení masek + oční obklad
+    - aplikace denního krému, očního krému, ochranné masti na rty
+    - úprava obočí
+    - depilace chloupků nad horním rtem
+  notes:
+    "Dle stavu pleti a požadavků klientky využívám přístrojovou techniku: Ultrazvuková špachtle, Ozonizér, PDT tunel, kosmetický ultrazvuk, ozonizér ( u akné )
+    <br /><br /> Ošetření je vhodné pro: smíšenou pleť, mastnou pleť, aknózní pleť, prevence akné"
+  time: 90 - 120 min, dle potřeby a stavu pleti
+
+- name: Antiage - 1100 Kč
+  bullets:
+    - odličení a tonizace pleti
+    - enzymatický peeling + neutralizace
+    - masáž obličeje
+    - aplikace pleťového séra / boosteru, ampule
+    - aplikace pleťové masky, oční obklad, vrstvení masek
+    - úprava obočí
+    - depilace chloupků nad horním rtem
+    - aplikace denního krému, očního krému, ochranné masti na rty
+  notes:
+    "Dle stavu pleti a požadavků klientky využívám přístrojovou techniku: Kosmetický ultrazvuk, PDT tunel
+    <br /><br /> Ošetření je vhodné pro: Zralou pleť, suchou pleť, prevence stárnutí pleti"
+  time: 120 min
+
+- name: Antiage + decolt - 1150 Kč
+  bullets:
+    - odličení a tonizace pleti
+    - enzymatický peeling + neutralizace / exfoliační maska
+    - masáž obličeje a dekoltu
+    - aplikace pleťového séra / boosteru, ampule
+    - aplikace pleťové masky, oční obklad
+    - aplikace denního krému, očního krému, ochranné masti na rty
+    - úprava obočí
+    - depilace chloupků nad horním rtem
+  notes:
+    "Dle stavu pleti a požadavků klientky využívám přístrojovou techniku: Kosmetický ultrazvuk, PDT tunel
+    <br /><br /> Ošetření je vhodné pro: Zralou pleť, suchou pleť, prevence stárnutí pleti"
+  time: 120 - 150 min
+
+- name: Complet - 1250 Kč
+  bullets:
+    - odličení a tonizace pleti
+    - enzymatický peeling + neutralizace
+    - aplikace gelového změkčovadla + hloubková čištění pleti, dezinfekce pleti
+    - masáž obličeje a dekoltu
+    - aplikace pleťového séra / boosteru, ampule
+    - aplikace pleťové masky, oční obklad
+    - aplikace denního krému, očního krému, ochranné masti na rty
+    - úprava obočí
+    - depilace chloupků nad horním rtem
+  notes:
+    "Dle stavu pleti a požadavků klientky využívám přístrojovou techniku: Kosmetický ultrazvuk, PDT tunel, ultrazvuková špachtle, ozonizér
+    <br /><br /> Ošetření je vhodné pro: Zralou pleť, suchou pleť, prevence stárnutí pleti"
+  time: 120 - 150 min
