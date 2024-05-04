@@ -1,72 +1,104 @@
-- title: Úprava obočí
-  price: 100
-- title: Úprava obočí a barvení obočí
-  price: 150
-- title: Barvení obočí samostatně
-  price: 100
-- title: Barvení řas
-  price: 110
-  break: true
-- title: Povrchové čištění - odlíčení pleti, tonizace
-  price: 60
-- title: Aktivní peeling, enzymatický peeling
-  price: 100
-- title: Gelové změkčovadlo
-  price: 50
-- title: Hloubkové čištění + dezinfekce pleti
-  price: 150
-  break: true
-- title: Masáž obličeje + krku
-  price: 170
-- title: Masáž obličeje, krku a dekoltu
-  price: 250
-  break: true
-- title: Pleťové sérum, booster, aktivní látka
-  price: 100
-- title: Aplikace pleťové masky na obličej a krk
-  price: 100
-- title: Aplikace pleťové masky  na obličej, krk, dekolt
-  price: 150
-- title: Denní + oční krém + obklad na oční okolí
-  price: 50
-  break: true
-- title: Depilace nad horním rtem
-  price: 100
-- title: Depilace brady
-  price: 70
-- title: Depilace tváří
-  price: 150
-- title: Depilace nohou po kolena
-  price: 250
-- title: Depilace celých nohou
-  price: 400
-- title: Depilace rukou do lokty
-  price: 180
-- title: Depilace celých rukou
-  price: 250
-  break: true
-- title: Lifting řas
-  price: 900
-  break: true
-- title: Zapracování séra/ masky ultrazvukem
-  price: 100
-  break: true
-- title: Denní líčení
-  price: 200
-- title: Večerní líčení
-  price: 300
-- title: Svatební líčení + zkouška
-  price: 1200
-  break: true
-- title: Parafínový zábal rukou
-  price: 150
-  break: true
-- title: Chemický peeling
-  price: 990
-  break: true
-- title: Základní pedikúra (mokrá/suchá/kombinovaná)
-  price: 400
-- title: Odlakování
-  price: 50
-- title: Lakování
-  price: 100
+- headline: Kosmetické balíčky - celkové ošetření pleti
+  items:
+    - item:
+        title: Basic
+        price: 890
+    - item:
+        title: Akné / Rosacea
+        price: 1090
+    - item:
+        title: Antiage
+        price: 1100
+    - item:
+        title: Antiage + decolt
+        price: 1150
+    - item:
+        title: Complet
+        price: 1250
+
+- headline: Obočí a řasy
+  items:
+    - item:
+        title: Úprava obočí
+        price: 100
+    - item:
+        title: Úprava a barvení obočí
+        price: 150
+    - item:
+        title: Barvení obočí samostatně
+        price: 100
+    - item:
+        title: Barvení řas
+        price: 110
+    - item:
+        title: Lifting řas
+        price: 900
+
+- headline: Depilace
+  items:
+    - item:
+        title: Depilace nad horním rtem
+        price: 100
+    - item:
+        title: Depilace brady
+        price: 70
+    - item:
+        title: Depilace tváří
+        price: 150
+    - item:
+        title: Depilace nohou po kolena
+        price: 350
+    - item:
+        title: Depilace celých nohou (dle časové náročnosti a spotřeby materiálu)
+        price: 400-600
+    - item:
+        title: Depilace rukou po lokty
+        price: 200
+    - item:
+        title: Depilace celých rukou
+        price: 350
+    - item:
+        title: Depilace zad / hrudníku
+        price: 500
+
+- headline: Líčení
+  items:
+    - item:
+        title: Denní líčení
+        price: 200
+    - item:
+        title: Večerní líčení
+        price: 300
+    - item:
+        title: Svatební líčení + zkouška
+        price: 1200
+
+- headline: Chemický peeling
+  items:
+    - item:
+        title: Obličej + krk
+        price: 990
+    - item:
+        title: Dekolt
+        price: 700
+    - item:
+        title: Záda
+        price: 600
+    - item:
+        title: Parafínový zábal rukou
+        price: 150
+
+- headline: Pedikúra
+  items:
+    - item:
+        title: Základní pedikúra (suchá, mokrá, kombinovaná)
+        price: 400
+    - item:
+        title: Odlakování
+        price: 50
+    - item:
+        title: Lakování
+        price: 100
+    - item:
+        title: Gel lak
+        price: 400
