@@ -115,27 +115,26 @@ layout: default
         <div class="prose prose-lg max-w-full mt-8">
           <h3 class="underlined-title mb-10">Ceník</h3>
         </div>
+        {% for service in site.data.pricelist %}
         <table class="table-auto">
           <thead>
             <tr>
-              <th class="!px-4 !py-2">Služba</th>
-              <th class="!px-4 !py-2 text-right">Cena</th>
+              <th class="!px-4 !py-2">{{service.headline}}</th>
+              <th class="!px-4 !py-2 text-right"></th>
             </tr>
           </thead>
           <tbody>
-            {% for item in site.data.pricelist %}
+            {% for item in service.items %}
             <tr>
-              <td class="border !px-4 !py-2">{{item.title}}</td>
-              <td class="border !px-4 !py-2 text-right">{{item.price}},-</td>
+              <td class="border !px-4 !py-2">{{item.item.title}}</td>
+              <td class="border !px-4 !py-2 text-right">
+                {{item.item.price}},-
+              </td>
             </tr>
-            {% if item.break %}
-            <tr>
-              <td class=""></td>
-              <td class=""></td>
-            </tr>
-            {% endif %} {% endfor %}
+            {% endfor %}
           </tbody>
         </table>
+        {% endfor %}
       </div>
     </div>
 
