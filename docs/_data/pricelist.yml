@@ -86,19 +86,40 @@
         price: 600
     - item:
         title: Parafínový zábal rukou
-        price: 150
+        price: 250
 
 - headline: Pedikúra
   items:
     - item:
-        title: Základní pedikúra (suchá, mokrá, kombinovaná)
+        title: Kombinace mokré a přístrojové pedikúry  (60min. při pravidelné návštěvě)
         price: 400
     - item:
-        title: Odlakování
-        price: 50
+        title: Suchá přístrojová pedikúra ( 60 min. při pravidelné návštěvě)
+        price: 400
     - item:
-        title: Lakování
+        title: Lakování (20 min)
         price: 100
     - item:
-        title: Gel lak
+        title: Gel Lak ORLY (60min)
         price: 400
+    - item:
+        title: Rocklac (60min)
+        price: 400
+    - item:
+        title: Odstranění gel laku (15 min)
+        price: 100
+    - item:
+        title: Úprava silně ztluštělých, mykotických nehtů (30min)
+        price: 250
+    - item:
+        title: Odstranění kuřích ok (30min)
+        price: 200
+    - item:
+        title: Tamponáda zarostlého nehtu (20 min)
+        price: 150
+    - item:
+        title: Aplikace nehtového rovnátka na zarůstajíc nehet (30 min)
+        price: 650
+    - item:
+        title: Krytí defektů (otlak, prasklina, kuří oko)  (15 min)
+        price: 150
