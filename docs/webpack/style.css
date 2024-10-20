@@ -24,3 +24,7 @@ strong {
 .underlined-title {
   @apply flex min-w-full justify-center items-center;
 }
+
+.pt-24 {
+  padding-top: 7rem;
+}
