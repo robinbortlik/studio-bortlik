@@ -23,7 +23,7 @@
         price: 100
     - item:
         title: Úprava a barvení obočí
-        price: 150
+        price: 200
     - item:
         title: Barvení obočí samostatně
         price: 100
@@ -92,10 +92,10 @@
   items:
     - item:
         title: Kombinace mokré a přístrojové pedikúry  (60min. při pravidelné návštěvě)
-        price: 400
+        price: 600
     - item:
         title: Suchá přístrojová pedikúra ( 60 min. při pravidelné návštěvě)
-        price: 400
+        price: 600
     - item:
         title: Lakování (20 min)
         price: 100
