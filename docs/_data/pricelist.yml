@@ -1,4 +1,4 @@
-- headline: Kosmetické balíčky - celkové ošetření pleti
+- headline: Kosmetické balíčky
   items:
     - item:
         title: Basic
@@ -7,14 +7,17 @@
         title: Akné / Rosacea
         price: 1090
     - item:
-        title: Antiage
+        title: Anti Age
         price: 1100
     - item:
-        title: Antiage + dekolt
+        title: Anti Age + dekolt
         price: 1150
     - item:
         title: Complet
         price: 1250
+    - item:
+        title: Chemický peeling
+        price: 900
 
 - headline: Obočí a řasy
   items:
@@ -31,7 +34,7 @@
         title: Barvení řas
         price: 110
     - item:
-        title: Lifting řas
+        title: Lifting řas - natočení, barvení, výživa
         price: 900
 
 - headline: Depilace
@@ -57,9 +60,6 @@
     - item:
         title: Depilace celých rukou
         price: 350
-    - item:
-        title: Depilace zad / hrudníku
-        price: 500
 
 - headline: Líčení
   items:
@@ -73,53 +73,40 @@
         title: Svatební líčení + zkouška
         price: 1200
 
-- headline: Chemický peeling
-  items:
-    - item:
-        title: Obličej + krk
-        price: 990
-    - item:
-        title: Dekolt
-        price: 700
-    - item:
-        title: Záda
-        price: 600
-    - item:
-        title: Parafínový zábal rukou
-        price: 250
-
 - headline: Pedikúra
   items:
     - item:
-        title: Kombinace mokré a přístrojové pedikúry  (60min. při pravidelné návštěvě)
+        title: Kombinovaná pedikúra (při pravidelné návštěvě)
         price: 600
+        description: "Zahrnuje: dezinfekce a koupel nohou, zkrácení nehtů, odstranění zrohovatělé kůže, očištění nehtů, kontrola nehtových valů, zahlazení plosky nohou pomocí fréz, dezinfekce nohou, aplikace krému a výživy na nehty, poradenská služba."
     - item:
-        title: Suchá přístrojová pedikúra ( 60 min. při pravidelné návštěvě)
-        price: 600
+        title: Přístrojová pedikúra (dle časové náročnosti a spotřeby materiálu)
+        price: 500-600
+        description: "Zahrnuje: dezinfekce nohou, aplikace změkčujícího přípravku, zkrácení nehtů, kontrola nehtových valů, odstranění zrohovatělé kůže pomocí fréz a brusných kloboučků, dezinfekce nohou, aplikace krému a výživy na nehty, poradenská služba."
     - item:
-        title: Lakování (20 min)
-        price: 100
+        title: Zkrácení nehtů samostatně
+        price: 380
+        description: "Zahrnuje: dezinfekce, koupel nohou nebo změkčující sprej, zkrácení, zarovnání nehtů, čištění a kontrola nehtů, dezinfekce nohou, aplikace krému a výživy na nehty, poradenská služba."
+
+- headline: Pedikérské služby samostatně
+  items:
     - item:
-        title: Gel Lak ORLY (60min)
-        price: 400
-    - item:
-        title: Rocklac (60min)
-        price: 400
-    - item:
-        title: Odstranění gel laku (15 min)
-        price: 100
-    - item:
-        title: Úprava silně ztluštělých, mykotických nehtů (30min)
+        title: Odstranění gel laku z jiného salonu (20 min)
         price: 250
     - item:
-        title: Odstranění kuřích ok (30min)
+        title: Odstranění kuřích ok (30 min)
         price: 200
     - item:
         title: Tamponáda zarostlého nehtu (20 min)
         price: 150
     - item:
-        title: Aplikace nehtového rovnátka na zarůstající nehet (30 min)
+        title: Aplikace nehtového rovnátka
         price: 650
+        description: "(pro správný růst nehtu nutná výměna cca 1x za 4-6 týdnů)"
     - item:
-        title: Krytí defektů (otlak, prasklina, kuří oko)  (15 min)
+        title: Krytí defektu, zmírnění tlaku
         price: 150
+    - item:
+        title: Aplikace CND Shellacu (60 min)
+        price: 400
+        description: "Zahrnuje: dezinfekce, úprava nehtů, aplikace Shellacu - vytvrzení v LED lampě, výživa na nehty. Výdrž: 2-3 týdny. Upozornění: Aplikace je vhodná pouze na zdravé a nepoškozené nehty!"

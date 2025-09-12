@@ -1,73 +1,51 @@
 <html lang="cs">
-  <head>
-    <title>{{ site.title }}</title>
-    <meta name="description" content="{{ site.description }}" />
-    <meta name="robots" content="all" />
-    <meta
-      name="keywords"
-      content="kosmetický salon Hlučín, pedikérský salon Ostrava, profesionální kosmetika, pedikúra, obličejové ošetření, lifting řas, depilace, kosmetické masáže, suchá a mokrá pedikúra"
-    />
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="http://studiobortlik.cz/" />
-    <meta property="og:title" content="{{ site.title }}" />
-    <meta property="og:description" content="{{ site.description }}" />
-    <meta
-      property="og:image"
-      content="https://www.studiobortlik.cz/assets/images/gallery/4_1024.jpg"
-    />
+<head>
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}" />
+  <meta name="robots" content="all" />
+  <meta name="keywords"
+    content="kosmetický salon Hlučín, pedikérský salon Ostrava, profesionální kosmetika, pedikúra, obličejové ošetření, lifting řas, depilace, kosmetické masáže, suchá a mokrá pedikúra" />
 
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:url" content="http://studiobortlik.cz/" />
-    <meta name="twitter:title" content="{{ site.title }}" />
-    <meta name="twitter:description" content="{{ site.description }}" />
-    <meta
-      name="twitter:image"
-      content="https://www.studiobortlik.cz/assets/images/gallery/4_1024.jpg"
-    />
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://studiobortlik.cz/" />
+  <meta property="og:title" content="{{ site.title }}" />
+  <meta property="og:description" content="{{ site.description }}" />
+  <meta property="og:image" content="https://www.studiobortlik.cz/assets/images/gallery/4_1024.jpg" />
 
-    <link
-      rel="shortcut icon"
-      href="/assets/images/favicons/favicon.ico"
-      type="image/x-icon"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="/assets/images/favicons/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="/assets/images/favicons/favicon-32x32.png"
-    />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="manifest" href="/assets/images/favicons/site.webmanifest" />
-    <link
-      rel="mask-icon"
-      href="/assets/images/favicons/safari-pinned-tab.svg"
-      color="#5bbad5"
-    />
-    <meta name="msapplication-TileColor" content="#da532c" />
-    <meta name="theme-color" content="#ffffff" />
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="http://studiobortlik.cz/" />
+  <meta name="twitter:title" content="{{ site.title }}" />
+  <meta name="twitter:description" content="{{ site.description }}" />
+  <meta name="twitter:image" content="https://www.studiobortlik.cz/assets/images/gallery/4_1024.jpg" />
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="/assets/images/favicons/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/assets/images/favicons/site.webmanifest" />
+  <link rel="mask-icon" href="/assets/images/favicons/safari-pinned-tab.svg" color="#5bbad5" />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <meta name="theme-color" content="#ffffff" />
 
-    {% if jekyll.environment == "production" %}
-    <script src="assets/javascripts/bundle.js"></script>
-    {% else %}
-    <script src="http://0.0.0.0:8080/bundle.js"></script>
-    {% endif %}
-    <link rel="canonical" href="{{ page.canonical }}" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- <script src="https://rawcdn.githack.com/nextapps-de/spotlight/0.7.8/dist/spotlight.bundle.js"></script> -->
-    <script src="assets/javascripts/spotlight.min.js"></script>
-  </head>
-  <body class="h-full">
-    {{ content }}
-  </body>
+  {% if jekyll.environment == "production" %}
+  <script src="assets/javascripts/bundle.js"></script>
+  {% else %}
+  <script src="http://0.0.0.0:8080/bundle.js"></script>
+  {% endif %}
+  <link rel="canonical" href="{{ page.canonical }}" />
+
+  <!-- <script src="https://rawcdn.githack.com/nextapps-de/spotlight/0.7.8/dist/spotlight.bundle.js"></script> -->
+  <script src="assets/javascripts/spotlight.min.js"></script>
+</head>
+
+<body class="h-full">
+  {{ content }}
+</body>
+
 </html>
