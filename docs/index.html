@@ -108,7 +108,12 @@ canonical: "https://www.studiobortlik.cz/"
           <tbody>
             {% for item in service.items %}
             <tr>
-              <td class="border !px-4 !py-2">{{item.item.title}}</td>
+              <td class="border !px-4 !py-2">
+                {{item.item.title}}
+                {% if item.item.description %}
+                <br><span class="text-gray-500 text-sm">{{item.item.description}}</span>
+                {% endif %}
+              </td>
               <td class="border !px-4 !py-2 text-right">
                 {{item.item.price}},-
               </td>
