@@ -1,12 +1,10 @@
-version: "3.7"
-
 services:
   jekyll:
     stdin_open: true
     tty: true
     ports:
       - 4000:4000
-    command: ["bundle", "exec", "jekyll", "serve"]
+    command: ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0", "--port", "4000"]
     image: jekyll
     build:
       context: ./docs

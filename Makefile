@@ -2,7 +2,7 @@ SHELL = /bin/sh
 
 .PHONY: up
 up:
-	docker-compose up
+	docker-compose up --remove-orphans
 
 .PHONY: bash
 bash:

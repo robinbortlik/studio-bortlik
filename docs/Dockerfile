@@ -1,4 +1,4 @@
-FROM ruby:2.7.4-alpine3.14 AS production
+FROM ruby:3.4.5-alpine3.22 AS production
 
 RUN apk add --update --no-cache bash\
   build-base \

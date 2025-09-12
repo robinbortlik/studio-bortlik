@@ -4,14 +4,20 @@ module.exports = {
   output: {
     path: __dirname + "/assets/javascripts/",
     filename: "bundle.js",
+    clean: true,
   },
   devServer: {
+    static: {
+      directory: __dirname,
+    },
     headers: {
       "Access-Control-Allow-Origin": "*",
       "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, PATCH, OPTIONS",
       "Access-Control-Allow-Headers":
         "X-Requested-With, content-type, Authorization",
     },
+    open: true,
+    hot: true,
   },
   module: {
     rules: [
@@ -32,19 +38,11 @@ module.exports = {
       },
       {
         test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
-        use: [
-          {
-            loader: "file-loader",
-            options: {
-              name: "[name].[ext]",
-              outputPath: "/assets/fonts/",
-            },
-          },
-        ],
+        type: "asset/resource",
+        generator: {
+          filename: "assets/fonts/[name][ext]",
+        },
       },
     ],
-  },
-  devServer: {
-    static: true,
   },
 };
