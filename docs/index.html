@@ -141,7 +141,9 @@ canonical: "https://www.studiobortlik.cz/"
               {% endfor %}
             </ul>
             <div>{{package.notes}}</div>
+            {% if package.time %}
             <p>Délka trvání: {{package.time}}</p>
+            {% endif %}
           </div>
           <hr />
           {% endfor %}
