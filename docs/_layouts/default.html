@@ -49,6 +49,67 @@
   {% endif %}
   <link rel="canonical" href="{{ page.canonical }}" />
 
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "name": "Studio Bortlík",
+    "alternateName": "Kosmetické a pedikérské Studio Bortlík",
+    "url": "https://studiobortlik.cz",
+    "telephone": "+420 773 485 182",
+    "email": "k.m.13@seznam.cz",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Farní 477",
+      "addressLocality": "Šilheřovice",
+      "postalCode": "74715",
+      "addressCountry": "CZ"
+    },
+    "founder": {
+      "@type": "Person",
+      "name": "Kateřina Bortlík"
+    },
+    "description": "Studio Bortlík poskytuje profesionalní kosmetickou a pedikérskou péči v okolí Hlučína, Ostravy a Opavy. Rádi vás přivítáme v našem salónu v Šilheřovicích.",
+    "serviceArea": [
+      {
+        "@type": "City",
+        "name": "Hlučín"
+      },
+      {
+        "@type": "City", 
+        "name": "Ostrava"
+      },
+      {
+        "@type": "City",
+        "name": "Opava"
+      }
+    ],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Kosmetické a pedikérské služby",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Kosmetické služby",
+            "description": "Profesionální kosmetická péče o pleť, depilace, lifting řas, masáže"
+          }
+        },
+        {
+          "@type": "Offer", 
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Pedikérské služby",
+            "description": "Suchá, mokrá a kombinovaná pedikúra"
+          }
+        }
+      ]
+    }
+  }
+  </script>
+
   <!-- <script src="https://rawcdn.githack.com/nextapps-de/spotlight/0.7.8/dist/spotlight.bundle.js"></script> -->
   <script src="assets/javascripts/spotlight.min.js"></script>
 </head>
