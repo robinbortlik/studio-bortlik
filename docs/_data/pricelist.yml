@@ -1,23 +1,14 @@
 - headline: Kosmetické balíčky
   items:
     - item:
-        title: Basic
-        price: 890
-    - item:
-        title: Akné / Rosacea
-        price: 1090
-    - item:
-        title: Anti Age
-        price: 1100
+        title: Basic / Prevence Akné / Rosacea
+        price: 950
     - item:
         title: Anti Age + dekolt
         price: 1150
     - item:
         title: Complet
-        price: 1250
-    - item:
-        title: Chemický peeling
-        price: 900
+        price: 1340
 
 - headline: Obočí a řasy
   items:
@@ -26,16 +17,14 @@
         price: 100
     - item:
         title: Úprava a barvení obočí
-        price: 200
+        price: 250
     - item:
         title: Barvení obočí samostatně
-        price: 200
+        price: 250
     - item:
         title: Barvení řas
-        price: 110
-    - item:
-        title: Lifting řas - natočení, barvení, výživa
-        price: 900
+        price: 130
+
 
 - headline: Depilace
   items:
@@ -76,12 +65,8 @@
 - headline: Pedikúra
   items:
     - item:
-        title: Kombinovaná pedikúra (při pravidelné návštěvě)
+        title: Přístrojová pedikúra
         price: 600
-        description: "Zahrnuje: dezinfekce a koupel nohou, zkrácení nehtů, odstranění zrohovatělé kůže, očištění nehtů, kontrola nehtových valů, zahlazení plosky nohou pomocí fréz, dezinfekce nohou, aplikace krému a výživy na nehty, poradenská služba."
-    - item:
-        title: Přístrojová pedikúra (dle časové náročnosti a spotřeby materiálu)
-        price: 500-600
         description: "Zahrnuje: dezinfekce nohou, aplikace změkčujícího přípravku, zkrácení nehtů, kontrola nehtových valů, odstranění zrohovatělé kůže pomocí fréz a brusných kloboučků, dezinfekce nohou, aplikace krému a výživy na nehty, poradenská služba."
     - item:
         title: Zkrácení nehtů samostatně
@@ -99,10 +84,6 @@
     - item:
         title: Tamponáda zarostlého nehtu (20 min)
         price: 150
-    - item:
-        title: Aplikace nehtového rovnátka
-        price: 650
-        description: "(pro správný růst nehtu nutná výměna cca 1x za 4-6 týdnů)"
     - item:
         title: Krytí defektu, zmírnění tlaku
         price: 150
